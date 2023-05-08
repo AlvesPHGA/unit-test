@@ -14,3 +14,4 @@
 ## Install
 
 <p>Jest config: <pre>npx jest --init</pre></p>
+<p>Ts node: <pre>npm i ts-node -D</pre></p>

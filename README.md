@@ -19,6 +19,10 @@
 <p>Jest environment jsdom: <pre>npm i jest-environment-jsdom</pre></p>
 <p>¹SWC: <pre>npm i @swc/core @swc/jest -D</pre></p>
 
+## Test run
+
+<pre>npm test</pre>
+
 ## Observations
 
 <ul>

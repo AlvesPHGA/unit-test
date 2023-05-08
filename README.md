@@ -19,6 +19,10 @@
 <p>Jest environment jsdom: <pre>npm i jest-environment-jsdom</pre></p>
 <p>¹SWC: <pre>npm i @swc/core @swc/jest -D</pre></p>
 
+### Testing Library
+
+<pre>npm i @testing-library/react @testing-library/jest-dom @testing-library/user-event -D</pre>
+
 ## Test run
 
 <pre>npm test</pre>

@@ -1,5 +1,9 @@
 # Unit test
 
+## Project run
+
+<pre>npm run dev</pre>
+
 ## Tools
 
 <ul>
@@ -8,3 +12,5 @@
 </ul>
 
 ## Install
+
+<p>Jest config: <pre>npx jest --init</pre></p>

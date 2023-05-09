@@ -1,7 +1,7 @@
 function App() {
    return (
       <>
-         <h1>Stating in Unit testing</h1>
+         <h1 className="text">Stating in Unit testing</h1>
       </>
    );
 }

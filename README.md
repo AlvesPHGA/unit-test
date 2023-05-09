@@ -31,4 +31,5 @@
 
 <ul>
    <li>¹Config jest config: item 'transform'</li>
+   <li>Config jest config: item 'setupFilesAfterEnv'</li>
 </ul>

@@ -1,4 +1,4 @@
-import { render } from '@testing-library/react';
+import { getByPlaceholderText, render } from '@testing-library/react';
 import userEvent from '@testing-library/user-event';
 import App from './App';
 
@@ -22,14 +22,14 @@ describe('App component', () => {
    });
 
    it('should be able to add new item to the list', async () => {
-      const { getByText, debug } = render(<App />);
+      const { getByText, getByPlaceholderText } = render(<App />);
 
       const addButton = getByText('Adicionar');
+      const inputElement = getByPlaceholderText('Type new item');
 
-      debug();
+      await userEvent.type(inputElement, 'novo');
       await userEvent.click(addButton);
-      debug();
 
-      expect(getByText('Jako')).toBeInTheDocument();
+      expect(getByText('novo')).toBeInTheDocument();
    });
 });

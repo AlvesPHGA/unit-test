@@ -12,6 +12,7 @@ function App() {
          <h1 className="text">Stating in Unit testing</h1>
 
          <input
+            placeholder="Type new item"
             type="text"
             value={newItem}
             onChange={(e) => setNewItem(e.target.value)}

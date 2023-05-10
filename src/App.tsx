@@ -9,6 +9,12 @@ function App() {
          setList((states) => [...states, newItem]);
       }, 500);
    }
+
+   function handleRemoveItem(item: string) {
+      setTimeout(() => {
+         setList((states) => states.filter((i) => i !== item));
+      }, 500);
+   }
    return (
       <>
          <h1 className="text">Stating in Unit testing</h1>
@@ -22,7 +28,10 @@ function App() {
          <button onClick={handleList}>Adicionar</button>
          <ul>
             {list.map((item) => (
-               <li key={item}>{item}</li>
+               <li key={item}>
+                  {item}
+                  <button onClick={() => handleRemoveItem(item)}>Remove</button>
+               </li>
             ))}
          </ul>
       </>

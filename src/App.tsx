@@ -5,7 +5,9 @@ function App() {
    const [list, setList] = React.useState(['Jonnas', 'Julio', 'Judas']);
 
    function handleList() {
-      setList((states) => [...states, newItem]);
+      setTimeout(() => {
+         setList((states) => [...states, newItem]);
+      }, 500);
    }
    return (
       <>

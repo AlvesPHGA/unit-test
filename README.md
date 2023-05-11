@@ -33,3 +33,10 @@
    <li>¹Config jest config: item 'transform'</li>
    <li>Config jest config: item 'setupFilesAfterEnv'</li>
 </ul>
+
+## References
+
+<ul>
+   <li><a href = 'https://www.youtube.com/watch?v=edXudaVB0Bg'>Rocketseat  (YouTube)<></li>
+   <li><a href = 'https://www.youtube.com/watch?v=mJ6LHqc9RGI&t=2129s' >João Bibiano  (YouTube)</a></li>
+</ul>

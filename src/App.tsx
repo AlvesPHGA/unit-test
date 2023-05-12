@@ -1,7 +1,7 @@
-import List from './component/list';
+import CheckNumber from './component/CheckNumber';
 
 function App() {
-   return <List initialItems={['Jonnas', 'Junim', 'Costa']} />;
+   return <CheckNumber />;
 }
 
 export default App;

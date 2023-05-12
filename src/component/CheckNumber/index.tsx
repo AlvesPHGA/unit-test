@@ -16,6 +16,10 @@ const CheckNumber = () => {
                const rawValue = e.target.value;
                const numberValue = parseInt(rawValue);
 
+               const keyPress = e.nativeEvent.target;
+
+               console.log(keyPress);
+
                if (isNaN(numberValue)) {
                   setError('Digite um valor valido');
                   return;

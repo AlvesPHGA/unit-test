@@ -8,6 +8,7 @@ const CheckNumber = () => {
 
    return (
       <>
+         <h1 role="test">Tests</h1>
          <input
             type="text"
             placeholder="Digite um numero"

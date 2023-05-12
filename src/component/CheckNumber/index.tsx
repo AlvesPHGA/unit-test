@@ -1,10 +1,10 @@
 import React from 'react';
 
 const CheckNumber = () => {
-   const [number, setNumber] = React.useState(0);
+   const [number, setNumber] = React.useState('');
    const [error, setError] = React.useState('');
 
-   const isEven = number % 2 === 0;
+   const isEven = parseInt(number) % 2 === 0;
 
    return (
       <>
@@ -23,7 +23,7 @@ const CheckNumber = () => {
 
                setError('');
 
-               setNumber(numberValue);
+               setNumber(rawValue);
             }}
          />
          <p>{isEven ? 'Par' : 'Impar'}</p>
